@@ -39,9 +39,6 @@ const AddUser = (props) => {
     setEnteredAge("");
     setEnteredUsername("");
   };
-  const fun = () => {
-    setError(true);
-  };
 
   const errorHandler = () => {
     setError(null);
